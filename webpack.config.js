@@ -35,9 +35,6 @@ module.exports = {  //Aquí se encuentra toda la configuración de lo que va a s
         new CopyWebpackPlugin({
             patterns: [{from: './src/styles/styles.css',
             to: ''}],
-
-        }
-
-        )
+        })
     ]
 }
